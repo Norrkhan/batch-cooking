@@ -1,0 +1,14 @@
+{
+  "language": "spanish",
+  "outputStyle": "Batch Cooking",
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "permissions": {
+    "ask": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2f6b4f">
+  <title>Batch Cooking</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <h1>Batch Cooking</h1>
+    <select id="selector-mes" aria-label="Mes"></select>
+  </header>
+
+  <nav class="pestanas" aria-label="Secciones">
+    <a href="#menu" data-pestana="menu">Menú</a>
+    <a href="#recetas" data-pestana="recetas">Recetas</a>
+    <a href="#compra" data-pestana="compra">Compra</a>
+    <a href="#sesion" data-pestana="sesion">Sesión</a>
+  </nav>
+
+  <main id="contenido" class="contenido">
+    <p class="cargando">Cargando…</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
