@@ -1,47 +1,77 @@
 # Compra de octubre de 2026
 
-> **Todos los precios son estimados** (`est.`, 29/09/2026). No se pudieron verificar en lidl.es ni costco.es. Base de precios: `datos/precios.md`.
-> **Orden recomendado:** ir primero a Lidl y apuntar el €/kg real de las carnes. En Costco, comprar un producto solo si su €/kg es **menor que el precio de rentabilidad**.
+> **Costco:** hecha el 29/09/2026. Precios **reales** del ticket (Costco Las Rozas).
+> **Lidl:** 30/09/2026. Precios estimados (`est.`) salvo los que llevan fecha de ticket. Base de precios: `datos/precios.md`.
+> En Lidl, apuntad el €/kg real de las carnes de la sección "Comprobar precio" para saber si el mes que viene conviene comprarlas allí.
 
-## Costco (una vez al mes)
+## Costco (una vez al mes) · comprado el 29/09/2026
 
-| ✓ | Producto | Cantidad | Formato | Precio (est.) | €/kg (est.) | **Precio de rentabilidad** | Para |
-|---|---|---|---|---|---|---|---|
-| | Pechuga de pollo | 4,2 kg | 2 bandejas grandes | 31,46 € | 7,49 € | **< 7,99 €/kg** | C6, N2, N4 |
-| | Carne picada de ternera | 4,75 kg | 2 bandejas de ~2,5 kg | 42,50 € | 8,50 € | **< 8,98 €/kg** | C2, C3, C7 |
-| | Ternera para guisar (aguja o morcillo) | 1,95 kg | bandeja grande | 21,45 € | 11,00 € | **< 11,99 €/kg** | C4 |
-| | Lomo de cerdo (en lugar de magro) | 2,45 kg | pieza de ~3 kg | 19,50 € | 6,50 € | **< 6,99 €/kg** | C5 |
-| | Frutos rojos congelados | 3 kg | bolsa de 3 kg | 13,00 € | 4,33 € | **< 4,98 €/kg** | Batido de él |
-| | Huevos | 30 ud | bandeja de 30 | 6,50 € | 0,22 €/ud | **< 0,24 €/ud** | C2 (2 ud) y desayunos |
-| | Papel higiénico | 1 pack | pack grande | 15,00 € | — | **< 0,35 €/rollo** (est.) | Extra |
-| | Papel de cocina | 1 pack | pack grande | 13,00 € | — | **< 1,10 €/rollo** (est.) | Extra |
-| | **Subtotal Costco** | | | **≈ 162,40 €** | | | |
+El **precio de rentabilidad** es el €/kg en Lidl: si Costco lo supera, sale más barato comprar en Lidl.
 
-Si un producto de Costco supera su precio de rentabilidad, cómpralo en Lidl en la misma cantidad.
+| ✓ | Producto | Cantidad | Precio | €/kg | **Precio de rentabilidad** | Para |
+|---|---|---|---|---|---|---|
+| ✓ | Carne picada de añojo (100 % ternera) | 6,36 kg (2 bandejas) | 82,62 € | 12,99 € | **< 8,98 €/kg** (est., comprobar) | C2, C3, C7 · sobran 1,6 kg |
+| ✓ | Pechuga de pollo | 5,79 kg (2 bandejas) | 34,12 € | 5,89 € | **< 6,09 €/kg** (ticket Lidl 20/09) | C6, N2, N4 · sobran 1,6 kg |
+| ✓ | Ternera para guisar (KS Ragout de añojo) | 2,09 kg | 35,54 € | 16,99 € | **< 11,99 €/kg** (est., comprobar) | C4 |
+| ✓ | Contramuslo de pollo deshuesado y sin piel | 2,85 kg | 17,90 € | 6,29 € | **< 7,49 €/kg** (est.) | C1 |
+| ✓ | Pechuga de pavo | 2,06 kg | 18,50 € | 8,99 € | **< 8,49 €/kg** (est., comprobar) | N6 · sobran 1,15 kg |
+| ✓ | Filetes de lomo de cerdo | 2,54 kg | 13,45 € | 5,29 € | **< 6,99 €/kg** (est.) | C5 |
+| ✓ | Cebolla | saco de 5 kg | 6,29 € | 1,26 € | **< 1,45 €/kg** (ticket Lidl 06/09) | Casi todas |
+| ✓ | Miel ecológica | 1 kg | 10,99 € | 10,99 € | **< 6,98 €/kg** (est., no ecológica) | C6 |
+| ✓ | Curry Carmencita | 1 bote | 5,99 € | — | — | C1 |
+| ✓ | Laurel Carmencita | 1 bote | 2,99 € | — | — | C4, C5, N5 |
+| ✓ | Leche desnatada sin lactosa (Kirkland) | 18 l (2 packs de 9 × 1 l) | 15,18 € | 0,84 €/l | **< 0,91 €/l** (ticket Lidl 25/09) | Batido de él y casa |
+| ✓ | Huevos Granja San Miguel | 30 ud | 6,99 € | 0,23 €/ud | **< 0,22 €/ud** (ticket Lidl 06/09) | C2 (2 ud) y desayunos |
+| | **Subtotal Costco del menú** | | **250,56 €** | | | |
 
-## Lidl: compra grande del mes
+### Extras comprados en Costco
+| ✓ | Producto | Cantidad | Precio |
+|---|---|---|---|
+| ✓ | Jamón cocido Espuña | 1 ud | 9,99 € |
+| ✓ | Ketchup Heinz 50 % menos azúcar | 1 ud | 6,99 € |
+| ✓ | Mayonesa Hellmann's | pack de 2 | 6,49 € |
+| ✓ | Fairy Original | pack de 2 | 16,99 € |
+| ✓ | Melatonina en gominolas Weider | 1 ud | 14,99 € |
+| ✓ | Tenders de pollo empanados (para visitas) | 1 bolsa | 13,99 € (18,49 € − 4,50 € de cupón) |
+| ✓ | Arena de gato Sanicat | 1 ud | 9,49 € |
+| | **Subtotal extras Costco** | | **78,93 €** |
 
-### Carne y pescado
+**Total del ticket de Costco: 354,48 €.** De ese total, 24,99 € son un regalo que no se registra, así que al mes se imputan **329,49 €**.
+
+**Planificado en Costco pero no comprado:**
+- Los frutos rojos pasan a Lidl.
+- El papel higiénico y el papel de cocina se comprueban en casa.
+
+## Lidl: compra grande del mes · 30/09/2026
+
+### Comprobar precio (no comprar)
+- [ ] Carne picada de ternera: apuntar €/kg (Costco 12,99 €/kg)
+- [ ] Ternera para guisar: apuntar €/kg (Costco 16,99 €/kg)
+- [ ] Pechuga de pavo: apuntar €/kg (Costco 8,99 €/kg)
+- [ ] Contramuslo de pollo deshuesado: apuntar €/kg (Costco 6,29 €/kg)
+- [ ] Lomo de cerdo: apuntar €/kg (Costco 5,29 €/kg)
+- [ ] Miel: apuntar €/kg (Costco, ecológica, 10,99 €/kg)
+- [ ] Ketchup, mayonesa y Fairy: apuntar precio y formato
+
+### Pescado (cenas de ella)
 | ✓ | Producto | Cantidad | Formato | Precio (est.) | Para |
 |---|---|---|---|---|---|
-| | Contramuslo de pollo deshuesado y sin piel | 2,7 kg | bandejas de ~1 kg | 20,22 € | C1 |
-| | Pechuga de pavo | 900 g | 2 bandejas de 500 g | 8,50 € | N6 |
 | | Lomos de merluza congelados | 1,5 kg | 2 bolsas de 800 g | 15,98 € | N1 |
 | | Bacalao desalado congelado | 1,1 kg | 3 bolsas de 400 g | 16,80 € | N3 |
 | | Calamar o pota limpia congelada | 1,25 kg | 3 bolsas de 500 g | 13,50 € | N5 |
 
-### Congelados (verdura)
+### Congelados
 | ✓ | Producto | Cantidad | Formato | Precio (est.) | Para |
 |---|---|---|---|---|---|
 | | Brócoli congelado | 2 kg | 2 bolsas de 1 kg | 4,58 € | C6 |
 | | Judías verdes congeladas | 2,35 kg | 3 bolsas de 1 kg | 7,47 € | C5, N2 |
 | | Espinacas congeladas | 700 g | 1 bolsa de 1 kg | 2,29 € | C1 |
 | | Guisantes congelados | 300 g | 1 bolsa de 1 kg | 1,99 € | N1 |
+| | Frutos rojos congelados | 3 kg | 6 bolsas de 500 g | 14,94 € | Batido de él |
 
 ### Fruta y verdura
 | ✓ | Producto | Cantidad | Precio (est.) | Para |
 |---|---|---|---|---|
-| | Cebolla | 4,6 kg (5 mallas de 1 kg) | 6,45 € | Casi todas |
 | | Pimiento rojo | 2,45 kg | 7,33 € | C3, C5, C6, C7, N3 |
 | | Pimiento verde | 2,35 kg | 5,38 € | C3, C4, C5, C7, N3, N5 |
 | | Calabacín | 4,05 kg | 7,25 € | C2, C7, N1, N6 |
@@ -66,7 +96,6 @@ Si un producto de Costco supera su precio de rentabilidad, cómpralo en Lidl en 
 | | Arroz integral | 1 kg | 1,99 € | H |
 | | Quinoa | 500 g | 2,79 € | H |
 | | Salsa de soja | 250 ml | 1,59 € | C6 |
-| | Miel | 500 g | 3,49 € | C6 |
 | | Sésamo | 200 g | 1,79 € | C6 |
 | | Almendra laminada | 200 g (sirve para N2 y N6) | 2,49 € | N2, N6 |
 | | Semillas de calabaza | 200 g | 1,99 € | N4 |
@@ -75,10 +104,10 @@ Si un producto de Costco supera su precio de rentabilidad, cómpralo en Lidl en 
 | | Vino blanco para cocinar | 1 brik | 1,19 € | N1, N5, N6 |
 | | Vino tinto para cocinar | 1 brik | 1,19 € | C4 |
 
-### Lácteos (batido de él)
-| ✓ | Producto | Cantidad | Precio (est.) |
-|---|---|---|---|
-| | Leche desnatada UHT | 15 l | 11,85 € |
+### Lácteos
+| ✓ | Producto | Cantidad | Precio | Para |
+|---|---|---|---|---|
+| | Leche desnatada sin lactosa | 1 pack de 6 × 1 l | 5,46 € (ticket 25/09) | Hacen falta ~21 l (15 l del batido + 6 l de casa); Costco cubre 18 l |
 
 ### Táperes
 | ✓ | Tamaño | Cantidad | Precio (est.) |
@@ -87,22 +116,22 @@ Si un producto de Costco supera su precio de rentabilidad, cómpralo en Lidl en 
 | | Mediano (600–750 ml) | 62 | 21,70 € |
 | | Pequeño (250–300 ml) o bolsas zip de congelación | 30 | 9,00 € |
 
-Si en Lidl no hay táperes (salen en el bazar de algunas semanas), cómpralos en Costco. Compra también un rotulador permanente o etiquetas.
+Si en Lidl no hay táperes (salen en el bazar de algunas semanas), compradlos en otra tienda. Comprad también un rotulador permanente o etiquetas.
 
-**Subtotal Lidl mensual (menú + táperes): ≈ 238,20 €**
+**Subtotal Lidl mensual: ≈ 163,46 € (menú) + 44,65 € (táperes) = ≈ 208,11 €**
 
 ## Comprobar en casa antes de salir
 
 Marca lo que ya tengáis. Lo que falte se compra en Lidl.
 
+- [ ] Papel higiénico (no se compró en Costco)
+- [ ] Papel de cocina (no se compró en Costco)
 - [ ] Aceite de oliva virgen extra: hace falta ~0,9 l
-- [ ] Curry en polvo (sin almidón de maíz: mira la etiqueta)
 - [ ] Cúrcuma
 - [ ] Comino
 - [ ] Pimentón dulce
 - [ ] Pimentón picante
 - [ ] Orégano
-- [ ] Laurel
 - [ ] Tomillo
 - [ ] Romero
 - [ ] Azafrán (o cúrcuma)
@@ -112,46 +141,55 @@ Marca lo que ya tengáis. Lo que falte se compra en Lidl.
 
 ## Extras del mes (Lidl)
 
-| ✓ | Producto | Cantidad sugerida | Precio (est.) |
+| ✓ | Producto | Cantidad sugerida | Precio |
 |---|---|---|---|
-| | Leche desnatada sin lactosa | 6 l (ajusta la cantidad) | 5,94 € |
-| | Café | 2 paquetes de 250 g | 5,00 € |
-| | Margarina | 1 tarrina | 1,49 € |
-| | Queso Edam o Gouda | 400 g | 3,49 € |
-| | Ketchup | 1 ud | 1,19 € |
-| | Mayonesa | 1 ud | 1,29 € |
-| | Cola Zero | 2 botellas de 2 l | 1,58 € |
-| | Fairy | 1 ud | 2,79 € |
-| | Magdalenas | 1 paquete | 1,59 € |
-| | **Subtotal extras** | | **≈ 24,40 €** |
+| | Café | 2 paquetes de 250 g | 5,00 € (est.) |
+| | Margarina ligera | 1 tarrina | 1,39 € (ticket 23/08) |
+| | Queso gouda tierno en lonchas | 1 paquete | 2,49 € (ticket 25/09) |
+| | Cola Zero | 2 botellas de 2 l | 1,58 € (est.) |
+| | Magdalenas | 1 paquete | 1,59 € (est.) |
+| | **Subtotal extras** | | **≈ 12,05 €** |
 
-Los huevos, el papel higiénico y el papel de cocina están en la lista de Costco.
+El ketchup, la mayonesa, el Fairy, la leche y los huevos ya se compraron en Costco.
 
 ## Lidl semanal (perecederos)
 
 Compra hoy la semana 1 y repite los lunes 5, 12, 19 y 26 de octubre.
 
-| ✓ | Producto | Cantidad por semana | Precio (est.) |
+| ✓ | Producto | Cantidad por semana | Precio |
 |---|---|---|---|
-| | Pan de molde | 1 ud | 1,29 € |
-| | Jamón de pavo | 200 g | 1,99 € |
-| | **Por semana** | | **≈ 3,30 €** (5 semanas ≈ 16,40 €) |
+| | Pan de molde | 1 ud | 1,09 € (ticket 20/09) |
+| | Jamón de pavo | 200 g | 1,99 € (est.) |
+| | **Por semana** | | **≈ 3,08 €** (5 semanas ≈ 15,40 €) |
 
 El pan de molde se congela bien. Si queréis ir menos veces al súper, comprad 5 ahora y congeladlos.
 
-## Resumen de costes (est.)
+## Sobrantes para noviembre
+
+Se congelan el día de la sesión, en bolsas o táperes etiquetados con el producto, el peso y la fecha.
+
+| Producto | Sobrante aprox. | Valor |
+|---|---|---|
+| Carne picada de ternera | 1,6 kg | 20,91 € |
+| Pechuga de pollo | 1,6 kg | 9,37 € |
+| Pechuga de pavo | 1,15 kg | 10,43 € |
+| Ternera, lomo y contramuslo | ~0,4 kg en total | 3,80 € |
+| **Total** | | **≈ 44,50 €** |
+
+También sobran ~400 g de cebolla (se aprovecha en casa), ~930 g de miel, y parte del arroz, la quinoa y los garbanzos.
+
+## Resumen de costes
 
 | Concepto | Coste |
 |---|---|
-| Costco | 162,40 € |
-| Lidl mensual (menú + leche del batido) | 193,55 € |
-| Táperes | 44,65 € |
-| Extras | 24,40 € |
-| Lidl semanal (5 semanas) | 16,40 € |
-| **Total del mes** | **≈ 441,40 €** |
-| Solo ingredientes del batch cooking | ≈ 296,60 € (≈ 9,60 € al día; ≈ 3,20 € por plato) |
+| Costco: menú, leche y huevos (real) | 250,56 € |
+| Costco: extras (real) | 78,93 € |
+| Lidl mensual: menú, frutos rojos y leche (est.) | 163,46 € |
+| Táperes (est.) | 44,65 € |
+| Extras de Lidl (est.) | 12,05 € |
+| Lidl semanal, 5 semanas (est.) | 15,40 € |
+| **Total del mes** | **≈ 565,05 €** |
+| Solo ingredientes del batch cooking | ≈ 371,45 €, de los que ≈ 44,50 € son sobrantes para noviembre → **≈ 326,95 € consumidos** (≈ 10,55 € al día; ≈ 3,50 € por plato) |
 
-- El coste del batch cooking sale más alto que en `menu.md` (246 €) porque los productos se venden en formatos cerrados y sobra algo de algunos.
-- **Sobrantes:** ~250 g de carne picada, ~550 g de lomo, ~250 g de calamar, ~100 g de bacalao y parte del arroz, la quinoa y los garbanzos. Todo se congela y se aprovecha el mes que viene.
+- La carne de ternera de Costco (12,99 y 16,99 €/kg) sale mucho más cara que la estimación inicial (8,50 y 11,00 €/kg). Es la principal causa de la subida. El precio de Lidl de hoy dirá si el mes que viene conviene comprarla allí.
 - Los táperes son un gasto de una sola vez.
-- Todos los precios son estimados. Cuando sepáis los precios reales de la compra, se actualizan en `datos/precios.md`.
