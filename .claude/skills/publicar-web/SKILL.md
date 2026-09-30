@@ -15,13 +15,13 @@ Actualiza la web con el mes `$ARGUMENTS` (por defecto, el último menú de `menu
 
 ## Funciones de la web
 - Pestañas: Menú · Recetas · Compra · Sesión.
-- Compra: casillas guardadas en `localStorage` (clave por mes y producto), filtro por supermercado (Costco / Lidl mensual / Lidl semanal / Extras) y botón para desmarcar todo.
+- Compra: casillas guardadas en `localStorage` (clave por mes y producto), filtro por supermercado (Costco / Lidl mensual / Comprobar precios / Lidl semanal / Extras / En casa) y botón para desmarcar todo. Lo que ya está comprado en el `.md` sale marcado y bloqueado.
 - Diseño pensado primero para el móvil, con botones táctiles grandes.
 - `@media print`: imprime solo la lista filtrada, sin la navegación.
 - Todo el texto de la web en español.
 
 ## Pasos
-1. Ejecuta `python scripts/generar_web.py $ARGUMENTS`. Genera el JSON del mes y `meses.json`. La compra se convierte en artículos marcables a partir de las tablas con columna `✓` y de las listas `- [ ]` de `compra.md`.
+1. Ejecuta `python scripts/generar_web.py $ARGUMENTS`. Genera el JSON del mes y `meses.json`. La compra se convierte en artículos marcables a partir de las tablas con columna `✓` y de las listas `- [ ]` de `compra.md`. Una `✓` en esa columna (o `- [x]`) indica que ya está comprado. La sección `## Comprobar precios…` es su propio grupo.
 2. Cambia `index.html`, `estilos.css` o `app.js` solo si hace falta una función nueva.
 3. Comprueba que el número de recetas y de artículos que muestra el script es el esperado. Para verlo en local: `python -m http.server -d docs`.
 4. Termina con un resumen de los cambios y un mensaje de commit propuesto (corto, en español). **No hagas commit ni push**: espera a que te dé permiso.

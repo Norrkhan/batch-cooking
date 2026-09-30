@@ -21,6 +21,7 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
 GRUPOS = [
     ("costco", "Costco"),
     ("lidl", "Lidl: compra grande"),
+    ("precios", "Comprobar precios"),
     ("casa", "Comprobar en casa"),
     ("extras", "Extras"),
     ("semanal", "Lidl semanal"),
@@ -71,9 +72,10 @@ def parsear_compra(texto):
             continue
         if grupo is None:
             continue
-        casilla = re.match(r"^- \[[ xX]\] (.+)", linea)
+        casilla = re.match(r"^- \[([ xX])\] (.+)", linea)
         if casilla:
-            texto = casilla.group(1)
+            comprado = casilla.group(1) != " "
+            texto = casilla.group(2)
             corte = texto.find(": ")
             # No partir en los ":" que están dentro de un paréntesis
             if corte >= 0 and "(" not in texto[:corte]:
@@ -81,7 +83,8 @@ def parsear_compra(texto):
             else:
                 nombre, detalle = texto, ""
             items.append({"id": f"{grupo}-{slug(nombre)}", "grupo": grupo, "seccion": seccion,
-                          "producto": limpiar(nombre), "detalles": [["", limpiar(detalle)]] if detalle else []})
+                          "producto": limpiar(nombre), "detalles": [["", limpiar(detalle)]] if detalle else [],
+                          "comprado": comprado})
             continue
         if not linea.startswith("|"):
             cabecera = None
@@ -100,8 +103,10 @@ def parsear_compra(texto):
             continue
         detalles = [[k, limpiar(v)] for k, v in datos.items()
                     if k not in ("Producto", "Tamaño") and v and v != "—"]
+        # Una marca en la columna ✓ del .md significa que ya está comprado
         items.append({"id": f"{grupo}-{slug(nombre)}", "grupo": grupo, "seccion": seccion,
-                      "producto": limpiar(nombre), "detalles": detalles})
+                      "producto": limpiar(nombre), "detalles": detalles,
+                      "comprado": fila[0] in ("✓", "x", "X")})
     return items
 
 

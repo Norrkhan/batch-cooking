@@ -4,6 +4,7 @@ const GRUPOS = [
   ["todo", "Todo"],
   ["costco", "Costco"],
   ["lidl", "Lidl mensual"],
+  ["precios", "Comprobar precios"],
   ["semanal", "Lidl semanal"],
   ["extras", "Extras"],
   ["casa", "En casa"],
@@ -121,8 +122,10 @@ function vistaSesion() {
 function vistaCompra() {
   const marcados = leerLS(claveMarcados(), {});
   const items = estado.datos.compra.filter((x) => estado.filtro === "todo" || x.grupo === estado.filtro);
-  const hechos = items.filter((x) => marcados[x.id]).length;
-  const visibles = estado.ocultarMarcados ? items.filter((x) => !marcados[x.id]) : items;
+  // Lo marcado como comprado en el .md cuenta siempre como hecho
+  const hecho = (x) => x.comprado || marcados[x.id];
+  const hechos = items.filter(hecho).length;
+  const visibles = estado.ocultarMarcados ? items.filter((x) => !hecho(x)) : items;
 
   let html = `<div class="filtros no-imprimir" role="group" aria-label="Supermercado">${GRUPOS.map(([g, t]) =>
     `<button data-filtro="${g}" class="${estado.filtro === g ? "activo" : ""}">${t}</button>`).join("")}</div>
@@ -147,8 +150,8 @@ function vistaCompra() {
       seccion = x.seccion;
     }
     const det = x.detalles.map(([k, v]) => k ? `<span><em>${escapar(k)}:</em> ${enlinea(v)}</span>` : `<span>${enlinea(v)}</span>`).join("");
-    html += `<li class="articulo ${marcados[x.id] ? "marcado" : ""}">
-      <label><input type="checkbox" data-id="${x.id}" ${marcados[x.id] ? "checked" : ""}>
+    html += `<li class="articulo ${hecho(x) ? "marcado" : ""}">
+      <label><input type="checkbox" data-id="${x.id}" ${hecho(x) ? "checked" : ""} ${x.comprado ? "disabled" : ""}>
         <span class="texto"><strong>${escapar(x.producto)}</strong><span class="detalles">${det}</span></span>
       </label></li>`;
   }

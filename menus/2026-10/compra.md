@@ -42,9 +42,9 @@ El **precio de rentabilidad** es el €/kg en Lidl: si Costco lo supera, sale m�
 - Los frutos rojos pasan a Lidl.
 - El papel higiénico y el papel de cocina se comprueban en casa.
 
-## Lidl: compra grande del mes · 30/09/2026
+## Comprobar precios en Lidl · 30/09/2026
 
-### Comprobar precio (no comprar)
+No se compran: solo hay que apuntar el precio para decidir dónde comprar el mes que viene.
 - [ ] Carne picada de ternera: apuntar €/kg (Costco 12,99 €/kg)
 - [ ] Ternera para guisar: apuntar €/kg (Costco 16,99 €/kg)
 - [ ] Pechuga de pavo: apuntar €/kg (Costco 8,99 €/kg)
@@ -52,6 +52,8 @@ El **precio de rentabilidad** es el €/kg en Lidl: si Costco lo supera, sale m�
 - [ ] Lomo de cerdo: apuntar €/kg (Costco 5,29 €/kg)
 - [ ] Miel: apuntar €/kg (Costco, ecológica, 10,99 €/kg)
 - [ ] Ketchup, mayonesa y Fairy: apuntar precio y formato
+
+## Lidl: compra grande del mes · 30/09/2026
 
 ### Pescado (cenas de ella)
 | ✓ | Producto | Cantidad | Formato | Precio (est.) | Para |
