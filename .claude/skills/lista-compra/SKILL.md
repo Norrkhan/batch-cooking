@@ -14,6 +14,7 @@ Genera `menus/$ARGUMENTS/compra.md`. Si no se indica mes, usa el último menú d
 - Pregúntame por los **extras** del mes (desayunos, limpieza, suplementos…) antes de cerrar la lista.
 
 ## 2. Precios
+- Primero ejecuta `python scripts/leer_precios.py <mes anterior>`: son los precios que anotamos en tienda desde la web. Fusiónalos en `datos/precios.md` como `verificado` (sustituyen a las filas `est.` del mismo producto y súper).
 - Busca cada producto en `datos/precios.md`. Si falta o tiene más de 30 días, lanza el subagente `investigador-precios` con la lista de productos pendientes, en una sola llamada.
 
 ## 3. Reparte por supermercado

@@ -11,11 +11,13 @@ Actualiza la web con el mes `$ARGUMENTS` (por defecto, el último menú de `menu
 - `docs/index.html`, `docs/estilos.css`, `docs/app.js`: HTML, CSS y JS puros, sin frameworks ni dependencias externas.
 - `docs/datos/AAAA-MM.json`: datos del mes generados a partir de `menu.md`, `compra.md`, `sesion.md` y las recetas del menú.
 - `docs/datos/meses.json`: lista de los meses disponibles, para el selector.
+- `docs/config.js`: URL y clave pública de Supabase. La base de datos se crea con `scripts/supabase.sql`; escribir exige el PIN compartido (se pide en la web y se recuerda en el móvil). Sin conexión, la web muestra la última copia y no guarda cambios.
+- Precios en tienda: cada artículo (salvo «En casa») tiene un botón «€» con precio y formato para Lidl y Costco. La web calcula €/kg, €/l o €/ud y marca el más barato. `scripts/leer_precios.py` los lee para `/lista-compra`.
 - Los `.md` son la **fuente de verdad**. El JSON se regenera siempre; nunca se edita a mano.
 
 ## Funciones de la web
 - Pestañas: Menú · Recetas · Compra · Sesión.
-- Compra: casillas guardadas en `localStorage` (clave por mes y producto), filtro por supermercado (Costco / Lidl mensual / Comprobar precios / Lidl semanal / Extras / En casa) y botón para desmarcar todo. Lo que ya está comprado en el `.md` sale marcado y bloqueado.
+- Compra: casillas **compartidas** en Supabase (tabla `compra_estado`, clave mes + id del artículo), filtro por supermercado (Costco / Lidl mensual / Comprobar precios / Lidl semanal / Extras / En casa) y botón para desmarcar todo. Lo que ya está comprado en el `.md` sale marcado y bloqueado.
 - Diseño pensado primero para el móvil, con botones táctiles grandes.
 - `@media print`: imprime solo la lista filtrada, sin la navegación.
 - Todo el texto de la web en español.

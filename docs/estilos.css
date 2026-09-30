@@ -108,6 +108,29 @@ button.peligro { color: var(--peligro); }
 .articulo.marcado strong { text-decoration: line-through; color: var(--marcado); }
 .articulo.marcado .detalles { opacity: .6; }
 
+/* compra compartida y precios */
+.articulo { display: flex; flex-wrap: wrap; align-items: flex-start; }
+.articulo > label { flex: 1; min-width: 0; }
+.boton-precio { margin: .6rem .75rem 0 0; min-width: 2.75rem; font-weight: 700; }
+.resumen-precios { font-size: .85rem; color: var(--acento); font-weight: 600; }
+.precios { flex-basis: 100%; padding: .25rem 1rem .75rem 3.25rem; display: grid; gap: .5rem; }
+.fila-precio { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .75rem; }
+.fila-precio .super { font-weight: 700; min-width: 3.5rem; }
+.campo { display: flex; align-items: center; gap: .35rem; font-size: .85rem; color: var(--suave); }
+.campo input, .pin input {
+  font: inherit; font-size: 1rem; padding: .45rem .6rem; min-height: 2.5rem; width: 6.5rem;
+  border: 1px solid var(--borde); border-radius: 8px; background: var(--fondo); color: var(--texto);
+}
+.unitario { font-size: .85rem; color: var(--suave); }
+.unitario.barato { color: var(--acento); font-weight: 700; }
+.ayuda { margin: 0; font-size: .8rem; color: var(--suave); }
+.aviso { margin: 0 0 .75rem; padding: .6rem .9rem; border-radius: 8px; background: var(--acento-suave); border-left: 4px solid var(--peligro); }
+.pin { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; margin-bottom: .75rem; padding: .75rem 1rem; background: var(--superficie); border: 1px solid var(--borde); border-radius: 10px; }
+.pin label { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; font-weight: 600; }
+.pin input { width: 9rem; }
+.pin .error { color: var(--peligro); font-weight: 600; }
+@media (max-width: 30rem) { .precios { padding-left: 1rem; } }
+
 .solo-imprimir { display: none; }
 .cargando { color: var(--suave); }
 
